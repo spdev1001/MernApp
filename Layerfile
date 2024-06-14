@@ -16,3 +16,7 @@ RUN npm install
 WORKDIR /root
 RUN npm install
 
+RUN BACKGROUND npm start
+
+EXPOSE WEBSITE http://localhost:3000
+
