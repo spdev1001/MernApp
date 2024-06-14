@@ -1,0 +1,6 @@
+node_modules
+git
+build
+/client/rclient/build
+*.html
+client/rclient/build/static/js/2.2c1fb19e.chunk.js

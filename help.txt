@@ -1,0 +1,2 @@
+1. log logger, request, response winset should be used before route and for internal error use winset after the router
+ https://www.youtube.com/watch?v=2UTER21MCdk

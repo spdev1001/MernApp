@@ -1,0 +1,175 @@
+{
+  meta: {
+    req: {
+      url: '/api/user/me',
+      headers: {
+        'x-forwarded-host': 'localhost:3000',
+        'x-forwarded-proto': 'http',
+        'x-forwarded-port': '3000',
+        'x-forwarded-for': '127.0.0.1',
+        cookie: 'SESS_ID=s%3A-p9AdKtj8uflhGHINGoFBw02LAIYdo-f.RwtUJRg9KHYoLHIJqFFRpQ6oOnycP%2BKTgKD17YCRYzE',
+        'accept-language': 'en-US,en;q=0.9',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        referer: 'http://localhost:3000/',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'sec-ch-ua-platform': '"Windows"',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+        authorization: 'Bearer undefined',
+        'sec-ch-ua-mobile': '?0',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+        connection: 'close',
+        host: 'localhost:5000'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/me',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 87
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/user/me',
+  timestamp: '2024-06-11T17:23:32.361Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/me',
+      headers: {
+        'x-forwarded-host': 'localhost:3000',
+        'x-forwarded-proto': 'http',
+        'x-forwarded-port': '3000',
+        'x-forwarded-for': '127.0.0.1',
+        cookie: 'SESS_ID=s%3AIAvfRGvmGIzNLA5W4gG7emwzqxSftWH7.NxZj%2FklFxoQeFRmVUZrw4WZw0OTUrx7xA3xgPl6ElgE',
+        'accept-language': 'en-US,en;q=0.9',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        referer: 'http://localhost:3000/',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'sec-ch-ua-platform': '"Windows"',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+        authorization: 'Bearer undefined',
+        'sec-ch-ua-mobile': '?0',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+        connection: 'close',
+        host: 'localhost:5000'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/me',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 94
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/user/me',
+  timestamp: '2024-06-11T17:30:22.444Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/me',
+      headers: {
+        'x-forwarded-host': 'localhost:3000',
+        'x-forwarded-proto': 'http',
+        'x-forwarded-port': '3000',
+        'x-forwarded-for': '127.0.0.1',
+        'if-none-match': 'W/"1c6-1cGjU4xl90l5p9qrRr8hpgCDpqk"',
+        cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjNkMGRiMWE0NGQwOTFhY2NiNTQxNWEiLCJyb2xlIjpbIjVlMTJlOWRiNDI5MGY2MTAwODE0MDY0NyJdLCJpYXQiOjE3MTgwODc5MzAsImV4cCI6MTcxODEwNTkzMH0.RaLhyUzwacSuL-MUTOekqrQ7ewD3we7oVUk-KAEchKU; SESS_ID=s%3AySbmD9kDZ7aIkDscWXfysyugb0DZ3UC-.S4Ym9jumyl1Hk76EGvqZ1Ff%2BH0fJHur171BZhdreO8w',
+        'accept-language': 'en-US,en;q=0.9',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        referer: 'http://localhost:3000/',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'sec-ch-ua-platform': '"Windows"',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjNkMGRiMWE0NGQwOTFhY2NiNTQxNWEiLCJyb2xlIjpbIjVlMTJlOWRiNDI5MGY2MTAwODE0MDY0NyJdLCJpYXQiOjE3MTgwODc5MzAsImV4cCI6MTcxODEwNTkzMH0.RaLhyUzwacSuL-MUTOekqrQ7ewD3we7oVUk-KAEchKU',
+        'sec-ch-ua-mobile': '?0',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+        connection: 'close',
+        host: 'localhost:5000'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/me',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 12
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/user/me',
+  timestamp: '2024-06-11T17:31:14.640Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/me',
+      headers: {
+        'x-forwarded-host': 'localhost:3000',
+        'x-forwarded-proto': 'http',
+        'x-forwarded-port': '3000',
+        'x-forwarded-for': '127.0.0.1',
+        'if-none-match': 'W/"1c6-1cGjU4xl90l5p9qrRr8hpgCDpqk"',
+        cookie: 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjNkMGRiMWE0NGQwOTFhY2NiNTQxNWEiLCJyb2xlIjpbIjVlMTJlOWRiNDI5MGY2MTAwODE0MDY0NyJdLCJpYXQiOjE3MTgwODc5MzAsImV4cCI6MTcxODEwNTkzMH0.RaLhyUzwacSuL-MUTOekqrQ7ewD3we7oVUk-KAEchKU; SESS_ID=s%3A0WQjfID5FqUE4VEKKVHZ5I1nFVyqH7OD.aBTwxVBgrzutQFXGYRQIyaAwSQ2Ros9dB%2FjhSsj3q%2BM',
+        'accept-language': 'en-US,en;q=0.9',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        referer: 'http://localhost:3000/',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'sec-ch-ua-platform': '"Windows"',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjNkMGRiMWE0NGQwOTFhY2NiNTQxNWEiLCJyb2xlIjpbIjVlMTJlOWRiNDI5MGY2MTAwODE0MDY0NyJdLCJpYXQiOjE3MTgwODc5MzAsImV4cCI6MTcxODEwNTkzMH0.RaLhyUzwacSuL-MUTOekqrQ7ewD3we7oVUk-KAEchKU',
+        'sec-ch-ua-mobile': '?0',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+        connection: 'close',
+        host: 'localhost:5000'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/me',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 9
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/user/me',
+  timestamp: '2024-06-11T17:31:28.794Z'
+}
+{
+  message: 'Inside login mode : local',
+  level: 'info',
+  timestamp: '2024-06-12T08:38:19.036Z'
+}
+{
+  message: 'Inside login mode : local',
+  level: 'info',
+  timestamp: '2024-06-12T09:02:36.829Z'
+}
+{
+  message: 'Inside login mode : local',
+  level: 'info',
+  timestamp: '2024-06-12T09:29:35.572Z'
+}
+{
+  message: 'Inside login mode : local',
+  level: 'info',
+  timestamp: '2024-06-12T09:37:28.695Z'
+}
+{
+  message: 'Inside login mode : local',
+  level: 'info',
+  timestamp: '2024-06-13T06:19:51.028Z'
+}

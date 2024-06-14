@@ -1,0 +1,42 @@
+{
+  "name": "newreactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server_local": "nodemon server/server",
+    "server": "node server/server",
+    "client": "npm start --prefix client/rapp",
+    "cb": "npm run build --prefix client/rapp",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.20.2",
+    "composable-middleware": "^0.3.1",
+    "compression": "^1.7.4",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "dotenv": "^16.4.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.19.2",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.18.0",
+    "express-winston": "^4.2.0",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.6.9",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "q": "^1.5.1",
+    "socket.io": "^4.7.5",
+    "socket.io-cookie-parser": "^1.0.0",
+    "winston": "^3.13.0",
+    "winston-mongodb": "^5.1.1"
+  }
+}

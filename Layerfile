@@ -1,0 +1,23 @@
+FROM vm/ubuntu:18.04
+
+MEMORY 2G
+
+RUN curl -fSsL https://deb.nodesource.com/setup_16.x | bash && \
+    apt-get install nodejs python3 make gcc build-essential && \
+    rm -f /etc/apt/sources.list.d/nodesource.list
+
+ENV NODE_OPTIONS=--max-old-space-size=8192
+
+COPY . .
+
+WORKDIR client/rapp
+RUN npm install
+
+WORKDIR /root
+RUN npm install
+
+RUN BACKGROUND npm start
+
+
+EXPOSE WEBSITE http://localhost:3000
+
